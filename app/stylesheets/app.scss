@@ -57,7 +57,7 @@ body.landing .navbar {
    font-size: 14px;
  }
 
-// album page 
+//// album page 
 .album-header-container {
   margin-top: 55px;
   margin-bottom: 55px;
@@ -75,7 +75,6 @@ body.landing .navbar {
    // below the content. Another way of achieving the same effect would be to
    // set a margin-top and margin-bottom for each of these classes
    line-height: 150%;
-
 }
 
 .album-header-information h3 {
@@ -106,5 +105,30 @@ body.landing .navbar {
 }
 
 
+//// Collection Page
+.collection-album-container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
+.collection-album-container .caption {
+  margin-top: 10px;
+}
 
+.collection-album-container .caption p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.collection-album-container .caption p a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.collection-album-container .caption p a.album-name {
+  color: white;
+}
+
+.collection-album-container img {
+  max-width: 100%;
+}
