@@ -3,77 +3,86 @@
   <head>
     <title>Bloc Jams</title>
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.1/build/cssreset/cssreset-min.css">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+    
   </head>
   
   <body>
-    <div class="nav-bar">
-      <img src="/images/blocjams.png">
+    <div class="player-header-nav navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="logo navbar-left">
+            <img src="/images/blocjams.png">
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="album-container">
-      <div class="album-header-container">
-        <div>
+
+    <div class="album-container container">
+      <div class="album-header-container row">
+        <div class="col-md-3">
           <img src="/images/album-placeholder.png">
         </div>
         
-        <div class="album-information">
+        <div class="album-header-information col-md-8 col-md-push-1">
           <h3> The Colors</h3>
           <h4> Pablo Picasso</h4>
           <h5> 1881 on Cubism</h5>
         </div>
       </div>
 
-      <div>
-        <table class="ablum-song-listing">
+      <div class="row">
+        <table class="album-song-listing table">
           <tr>
-            <th>Number</th>
-            <th>Name</th>
-            <th>Length</th>
-            <th>Available</th>
+            <th class="col-md-1">Number</th>
+            <th class="col-md-9">Name</th>
+            <th class="col-md-2">Length</th>
+            <th class="col-md-2">Available</th>
           </tr>
           <tr>
-            <td>1</td>
-            <td>Blue</td>
-            <td>X:XX</td>
-            <td>Yes</td>
+            <td class="col-md-1">1</td>
+            <td class="col-md-7">Blue</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2">Yes</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Green</td>
-            <td>X:XX</td>
-            <td>Yes</td>
+            <td class="col-md-1">2</td>
+            <td class="col-md-7">Green</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2">Yes</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Red</td>
-            <td>X:XX</td>
-            <td>Yes</td>
+            <td class="col-md-1">3</td>
+            <td class="col-md-7">Red</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2">Yes</td>
           </tr>
           <tr>
-            <td>4</td>
-            <td>Pink</td>
-            <td>X:XX</td>
-            <td>Yes</td>
+            <td class="col-md-1">4</td>
+            <td class="col-md-7">Pink</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2">Yes</td>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Magenta</td>
-            <td>X:XX</td>
-            <td>Yes</td>
+            <td class="col-md-1">5</td>
+            <td class="col-md-7">Magenta</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2">Yes</td>
           </tr>
           <tr>
-            <td>6</td>
-            <td>Drive like you stole it</td>
-            <td>X:XX</td>
-            <td>No</td>
+            <td class="col-md-1">6</td>
+            <td class="col-md-7">Drive like you stole it</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2d">No</td>
           </tr>
           <tr>
-            <td>7</td>
-            <td>Oveture</td>
-            <td>X:XX</td>
-            <td>No</td>
+            <td class="col-md-1">7</td>
+            <td class="col-md-7">Oveture</td>
+            <td class="col-md-2">X:XX</td>
+            <td class="col-md-2d">No</td>
           </tr>            
         </table>
       </div>
